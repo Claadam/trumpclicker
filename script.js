@@ -1,4 +1,4 @@
-var listvalue = "trumpclicker"
+var listvalue = ["trumpclicker"]
 
  
 
@@ -13,4 +13,4 @@ document.getElementById("click").onclick = function click() {
   console.log(listvalue)
 }
 
-$
+function login
