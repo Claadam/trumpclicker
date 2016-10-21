@@ -1,5 +1,5 @@
 //var listvalue = ["trumpclicker"]
-
+var debt = $("#debt")
  
 
 var clickmoney = 1
@@ -9,6 +9,9 @@ var money = 0
 document.getElementById("click").onclick = function click() {
   money += clickmoney;
   document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
+  var money-owed = money*1.15
+  debt.html("you also have " + )
+  
   
 //  addListItem(listvalue, money);
 //  console.log(listvalue)
