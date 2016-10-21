@@ -4,7 +4,7 @@ var debt = $("#debt")
 
 var clickmoney = 1
 var money = 0
-var moneyowed = money
+var moneyowed = 0
 //document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 
 document.getElementById("click").onclick = function click() {
