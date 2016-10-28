@@ -12,6 +12,7 @@ $("#username").keydown(function(e) {
 
 save.onclick=function(){
   console.log("saved")
+  usernametext = $("#username").val()
   console.log(username)
 storeValue(usernametext, loginmoney)
 }
