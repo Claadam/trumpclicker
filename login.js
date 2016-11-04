@@ -12,7 +12,7 @@ $("#username").keydown(function(e) {
 
 
 save.onclick=function(){
-  console.log("saved")
+  console.log($("#username").val())
   usernametext = $("#username").val()
   console.log(username)
   var objToSave = {
@@ -34,4 +34,17 @@ var usernamestats = {
 var stats = {
  username: usernametext,
   usernamestats: usernamestats
+}
+
+
+
+loading = function(data) {
+localStorage.loaddebt = data.debt
+localStorage.loadmoney = data.loginMoney 
+}
+
+load.onclick=function(){
+  usernametext= $("#username").val()
+  once(usernametext, loading)
+  console.log(localStorage.loadmoney)
 }
